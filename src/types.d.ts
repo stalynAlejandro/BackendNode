@@ -20,3 +20,10 @@ interface SpecialDiaryEntry extends DiaryEntry {
 //type SpecialDiaryEntry2 = DiaryEntry & {
 //  flightNumber: number
 //}
+
+export interface ISubs {
+  nick: string;
+  months: number;
+  profile: string;
+  description: string;
+}
